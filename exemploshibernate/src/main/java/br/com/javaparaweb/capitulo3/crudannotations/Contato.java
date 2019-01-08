@@ -15,7 +15,7 @@ public class Contato {
 	@Column(name = "codigo")
 	private Integer	codigo;
 
-	@Column(name = "nome", length = 50, nullable = true)
+	@Column(name = "nome", length = 50, nullable = true) //se a coluna não puder receber valores nulo configure essa propriedade como false.
 	private String	nome;
 
 	@Column(name = "telefone", length = 50, nullable = true)
